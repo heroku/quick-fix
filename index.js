@@ -4,7 +4,7 @@ var app = express();
 var PORT = process.env.PORT || 3000;
 
 app.use(function(req, res, next) {
-  res.setHeader('Strict-Transport-Security', 'max-age=600');
+  res.setHeader('Strict-Transport-Security', 'max-age=31536000');
   res.setHeader('Content-Security-Policy', "script-src 'self'");
   res.setHeader('X-Frame-Options', 'SAMEORIGIN');
   res.setHeader('X-Xss-Protection', '1; mode=block');
