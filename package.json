@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": "0.12.2"
+    "node": "6.11.x"
   },
   "author": "mars@heroku.com",
   "license": "ISC",
