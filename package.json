@@ -13,6 +13,6 @@
   "author": "mars@heroku.com",
   "license": "ISC",
   "dependencies": {
-    "express": "4.13.3"
+    "express": "4.19.2"
   }
 }
